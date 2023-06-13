@@ -1,0 +1,269 @@
+CRITICAL - 2023-06-07 01:51:11 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Film.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 01:51:26 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 01:51:39 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 01:52:25 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 02:32:30 --> syntax error, unexpected token "public"
+in APPPATH\Models\FilmModel.php on line 64.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Models\\FilmModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FilmModel')
+ 3 APPPATH\Controllers\Film.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FilmModel')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:05:36 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 32.
+ 1 APPPATH\Controllers\Film.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->find_byid()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:08:31 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 32.
+ 1 APPPATH\Controllers\Film.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->find_byid()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:08:34 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 32.
+ 1 APPPATH\Controllers\Film.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->find_byid()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:11:19 --> Undefined variable $data
+in APPPATH\Models\FilmModel.php on line 66.
+ 1 APPPATH\Models\FilmModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Models\\FilmModel.php', 66)
+ 2 APPPATH\Controllers\Film.php(40): App\Models\FilmModel->getOrderBy()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->find_orderby()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:14:01 --> Undefined variable $data
+in APPPATH\Models\FilmModel.php on line 66.
+ 1 APPPATH\Models\FilmModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Models\\FilmModel.php', 66)
+ 2 APPPATH\Controllers\Film.php(40): App\Models\FilmModel->getOrderBy()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->find_orderby()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:27:11 --> Call to undefined method App\Models\FilmModel::getFilmAll
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(46): CodeIgniter\Model->__call('getFilmAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->find_kolom()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:45:50 --> Invalid file: "Film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('Film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:46:52 --> Invalid file: "Film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('Film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:47:13 --> Invalid file: "Film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('Film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:49:02 --> Invalid file: "Film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('Film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:50:54 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:50:56 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 03:52:37 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:04:16 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:04:27 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:08:31 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 28.
+ 1 APPPATH\Controllers\Film.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\app\\Controllers\\Film.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:04 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:37 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:40 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:41 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:41 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:42 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:10:42 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:11:50 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')
+CRITICAL - 2023-06-07 04:12:52 --> Invalid file: "film/semuaFilm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/semuaFilm.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\User\\Downloads\\MI4Bapp\\MI4Bapp\\public\\index.php')

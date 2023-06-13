@@ -1,0 +1,161 @@
+CRITICAL - 2023-06-13 06:42:52 --> Undefined property: App\Controllers\Genre::$Film
+in APPPATH\Controllers\Genre.php on line 23.
+ 1 APPPATH\Controllers\Genre.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Genre::$Film', 'C:\\xampp\\htdocs\\MI4Bap\\app\\Controllers\\Genre.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 06:43:13 --> Undefined property: App\Controllers\Genre::$genre
+in APPPATH\Controllers\Genre.php on line 23.
+ 1 APPPATH\Controllers\Genre.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Genre::$genre', 'C:\\xampp\\htdocs\\MI4Bap\\app\\Controllers\\Genre.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 06:44:13 --> Cannot declare class App\Controllers\genre, because the name is already in use
+in APPPATH\Views\film\semuagenre.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-13 07:47:37 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 07:48:49 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 07:51:46 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 07:53:30 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 07:53:52 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 07:56:45 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 07:56:50 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 08:02:19 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 08:02:26 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 08:03:10 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 08:05:12 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 08:05:14 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 08:12:42 --> Invalid file: "genre/semuagenre.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/semuagenre.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/semuagenre', [], true)
+ 3 APPPATH\Controllers\Genre.php(24): view('genre/semuagenre', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
+CRITICAL - 2023-06-13 09:22:44 --> Undefined array key "genre"
+in APPPATH\Views\film\semuaFilm.php on line 27.
+ 1 APPPATH\Views\film\semuaFilm.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\MI4Bap\\app\\Views\\film\\semuaFilm.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4Bap\\app\\Views\\film\\semuaFilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuaFilm', [], true)
+ 5 APPPATH\Controllers\Film.php(29): view('film/semuaFilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4Bap\\public\\index.php')
